@@ -9,7 +9,7 @@ class CityApiService {
       const response = await fetch(`${this.api}/?name=${city}`, {
         headers: {
           // add your api key in .env file
-          // "X-Api-Key": process.env.NINJAS_API_KEY as string,
+          "X-Api-Key": process.env.NINJAS_API_KEY as string,
         },
       });
       const data = await response.json();
