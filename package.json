@@ -1,0 +1,14 @@
+{
+  "name": "cache-with-revalidate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel public/index.html -p 3001 --open chrome"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^5.4.5"
+  }
+}
